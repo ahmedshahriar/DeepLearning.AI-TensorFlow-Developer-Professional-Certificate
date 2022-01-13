@@ -2,8 +2,9 @@
 
 1. [Kernel Wiki](https://en.wikipedia.org/wiki/Kernel_(image_processing))
 2. [Lode's Computer Graphics Tutorial - Image Filtering](https://lodev.org/cgtutor/filtering.html)
-3. [Cross-Entropy Loss](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
+3. [Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
 4. [RMSProp Optimizer](https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
+5. [Loss for Multilabel Vs Multiclass](https://stackoverflow.com/a/59433454/11105356)
 
 # Code
 1. [Exploring Convolutions](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W3/ungraded_labs/C1_W3_Lab_2_exploring_convolutions.ipynb)
