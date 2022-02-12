@@ -14,3 +14,4 @@
 
 # Short Formula
 1. Suppose an image has size W x W, the filter has size F x F, the padding is P, and the stride is S. Then the size of the resulting image of a convolution will be [(W – F + 2P) / S] + 1
+2.  if our image is of size n x n, and we convolve it with an f x f filter, then the size of the resulting output is (n-f+1) x (n-f+1)
