@@ -6,6 +6,9 @@
 4. [RMSProp Optimizer](https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
 5. [Loss for Multilabel Vs Multiclass](https://stackoverflow.com/a/59433454/11105356)
 
+## CNN
+1. [Understanding `width_shift_range` and `height_shift_range` arguments in Keras's ImageDataGenerator class](https://stackoverflow.com/a/62487089/11105356)
+
 # Code
 1. [Exploring Convolutions](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W3/ungraded_labs/C1_W3_Lab_2_exploring_convolutions.ipynb)
 2. [CNN Intro](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%202%20-%20Notebook.ipynb)
