@@ -5,7 +5,7 @@
 3. [Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
 4. [RMSProp Optimizer](https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
 5. [Loss for Multilabel Vs Multiclass](https://stackoverflow.com/a/59433454/11105356)
-6. [keras transfer learning](https://keras.io/guides/transfer_learning)
+6. [keras transfer learning](https://keras.io/guides/transfer_learning) [tf - transfer learning](https://www.tensorflow.org/tutorials/images/transfer_learning)
 7. [Dropout](https://www.youtube.com/watch?v=ARq74QuavAo)
 
 ## CNN
@@ -21,6 +21,7 @@ Dropout advantages ->
 3. [ImageDataGenerator](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W4/ungraded_labs/C1_W4_Lab_1_image_generator_no_validation.ipynb)
 4. [ImageDataGenerator with Validation](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W4/ungraded_labs/C1_W4_Lab_2_image_generator_with_validation.ipynb)
 5. [img data processing keras](https://keras.io/api/preprocessing/image/)
+6. [transfer learning intro](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W3/ungraded_lab/C2_W3_Lab_1_transfer_learning.ipynb)
 
 # Short Formula
 1. Suppose an image has size W x W, the filter has size F x F, the padding is P, and the stride is S. Then the size of the resulting image of a convolution will be [(W – F + 2P) / S] + 1
