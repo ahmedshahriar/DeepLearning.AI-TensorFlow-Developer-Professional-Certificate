@@ -5,9 +5,15 @@
 3. [Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
 4. [RMSProp Optimizer](https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
 5. [Loss for Multilabel Vs Multiclass](https://stackoverflow.com/a/59433454/11105356)
+6. [keras transfer learning](https://keras.io/guides/transfer_learning)
+7. [Dropout](https://www.youtube.com/watch?v=ARq74QuavAo)
 
 ## CNN
 1. [Understanding `width_shift_range` and `height_shift_range` arguments in Keras's ImageDataGenerator class](https://stackoverflow.com/a/62487089/11105356)
+
+Dropout advantages ->
+* neighboring neurons often end up with similar weights, which can lead to overfitting, so dropping some out at random can remove this.
+* often a neuron can over-weigh the input from a neuron in the previous layer, and can over specialize as a result. Thus, dropping out can break the neural network out of this potential bad habit! 
 
 # Code
 1. [Exploring Convolutions](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W3/ungraded_labs/C1_W3_Lab_2_exploring_convolutions.ipynb)
