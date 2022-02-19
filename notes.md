@@ -27,6 +27,8 @@ Dropout advantages ->
 4. [ImageDataGenerator with Validation](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W4/ungraded_labs/C1_W4_Lab_2_image_generator_with_validation.ipynb)
 5. [img data processing keras](https://keras.io/api/preprocessing/image/)
 6. [transfer learning intro](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W3/ungraded_lab/C2_W3_Lab_1_transfer_learning.ipynb)
+7. [Data Augmentation](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W2/ungraded_labs/C2_W2_Lab_1_cats_v_dogs_augmentation.ipynb)
+8. [multiclass img augmentation](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W4/ungraded_lab/C2_W4_Lab_1_multi_class_classifier.ipynb)
 
 # Short Formula
 1. Suppose an image has size W x W, the filter has size F x F, the padding is P, and the stride is S. Then the size of the resulting image of a convolution will be [(W – F + 2P) / S] + 1
