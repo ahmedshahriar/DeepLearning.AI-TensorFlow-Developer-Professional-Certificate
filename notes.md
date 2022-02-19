@@ -10,7 +10,7 @@
 
 ## CNN
 
-A first convolution layer will learn small local patterns such as edges, a second convolution layer will learn larger patterns made of the features of the first layers, and so on. This allows convnets to efficiently learn increasingly complex and abstract visual concepts
+A first convolution layer (layers closer to the input aka bottom layers) will learn small local patterns such as edges, a second convolution layer will learn larger patterns made of the features of the first layers, and so on. This allows convnets to efficiently learn increasingly complex and abstract visual concepts (at layers closer to the output)
 
 1. [Understanding `width_shift_range` and `height_shift_range` arguments in Keras's ImageDataGenerator class](https://stackoverflow.com/a/62487089/11105356)
 
@@ -18,6 +18,8 @@ Dropout advantages ->
 * neighboring neurons often end up with similar weights, which can lead to overfitting, so dropping some out at random can remove this.
 * often a neuron can over-weigh the input from a neuron in the previous layer, and can over specialize as a result. Thus, dropping out can break the neural network out of this potential bad habit! 
 
+## Transfer Learning
+* [Intro](https://stackoverflow.com/a/46745897/11105356)
 # Code
 1. [Exploring Convolutions](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W3/ungraded_labs/C1_W3_Lab_2_exploring_convolutions.ipynb)
 2. [CNN Intro](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%202%20-%20Notebook.ipynb)
