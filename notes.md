@@ -9,6 +9,9 @@
 7. [Dropout](https://www.youtube.com/watch?v=ARq74QuavAo)
 
 ## CNN
+
+A first convolution layer will learn small local patterns such as edges, a second convolution layer will learn larger patterns made of the features of the first layers, and so on. This allows convnets to efficiently learn increasingly complex and abstract visual concepts
+
 1. [Understanding `width_shift_range` and `height_shift_range` arguments in Keras's ImageDataGenerator class](https://stackoverflow.com/a/62487089/11105356)
 
 Dropout advantages ->
