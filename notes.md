@@ -7,6 +7,14 @@
 5. [Loss for Multilabel Vs Multiclass](https://stackoverflow.com/a/59433454/11105356)
 6. [keras transfer learning](https://keras.io/guides/transfer_learning) [tf - transfer learning](https://www.tensorflow.org/tutorials/images/transfer_learning)
 7. [Dropout](https://www.youtube.com/watch?v=ARq74QuavAo)
+8. [SubwordTextEncoder](https://www.tensorflow.org/datasets/api_docs/python/tfds/deprecated/text/SubwordTextEncoder)
+
+## dataset
+1. [tensorflow datasets](https://github.com/tensorflow/datasets/tree/master/docs/catalog)
+
+### NLP
+1. [Sarcasm Detection](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection?select=Sarcasm_Headlines_Dataset_v2.json)
+2. [BBC Articles](https://www.kaggle.com/yufengdev/bbc-fulltext-and-category)
 
 ## CNN
 
