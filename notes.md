@@ -18,6 +18,9 @@ Dropout advantages ->
 * neighboring neurons often end up with similar weights, which can lead to overfitting, so dropping some out at random can remove this.
 * often a neuron can over-weigh the input from a neuron in the previous layer, and can over specialize as a result. Thus, dropping out can break the neural network out of this potential bad habit! 
 
+## NLP
+* Both `Flatten` and `GlobalAveragePooling1D/2D/3D` are valid options. So is `GlobalMaxPooling2D`. `Flatten` will result in a larger Dense layer afterwards, which is more expensive and may result in worse overfitting. But if you have lots of data, it might also perform better. For `GlobalAveragePooling` resulting shape will be (n_samples, last_axis), `Flatten()` will reshape a tensor into (n_samples, height*width*channels)
+
 ## Transfer Learning
 * [Intro](https://stackoverflow.com/a/46745897/11105356)
 # Code
