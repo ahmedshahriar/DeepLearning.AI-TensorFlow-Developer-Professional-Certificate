@@ -11,6 +11,7 @@
 
 ## dataset
 1. [tensorflow datasets](https://github.com/tensorflow/datasets/tree/master/docs/catalog)
+  - [Dataset Buffer Size](https://datascience.stackexchange.com/questions/89316/tensorflows-shufflebuffer-size)
 
 ### NLP
 1. [Sarcasm Detection](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection?select=Sarcasm_Headlines_Dataset_v2.json)
@@ -29,6 +30,12 @@ Dropout advantages ->
 ## NLP
 * Both `Flatten` and `GlobalAveragePooling1D/2D/3D` are valid options. So is `GlobalMaxPooling2D`. `Flatten` will result in a larger Dense layer afterwards, which is more expensive and may result in worse overfitting. But if you have lots of data, it might also perform better. For `GlobalAveragePooling` resulting shape will be (n_samples, last_axis), `Flatten()` will reshape a tensor into (n_samples, height*width*channels)
 * In `Tokenizer` `num_words` parameter lets us specify the maximum number of vocabulary words to use. For example, if we set num_words=100 when initializing the Tokenizer , it will only use the 100 most frequent words in the vocabulary and filter out the remaining vocabulary words.
+* Subword-based tokenization algorithm will break the sentence into subwords. The subword-based tokenization algorithms uses the following principles. 
+  - Do not split the frequently used words into smaller subwords.
+  - Split the rare words into smaller meaningful subwords. 
+    - For instance "annoyingly" might be considered a rare word and could be decomposed into "annoying" and "ly".
+* [Word, Subword, and Character-Based Tokenization](https://towardsdatascience.com/word-subword-and-character-based-tokenization-know-the-difference-ea0976b64e17)
+* [HuggingFace - Tokenizer Summary](https://huggingface.co/docs/transformers/tokenizer_summary)
 
 ## Transfer Learning
 * [Intro](https://stackoverflow.com/a/46745897/11105356)
