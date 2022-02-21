@@ -36,6 +36,9 @@ Dropout advantages ->
     - For instance "annoyingly" might be considered a rare word and could be decomposed into "annoying" and "ly".
 * [Word, Subword, and Character-Based Tokenization](https://towardsdatascience.com/word-subword-and-character-based-tokenization-know-the-difference-ea0976b64e17)
 * [HuggingFace - Tokenizer Summary](https://huggingface.co/docs/transformers/tokenizer_summary)
+* sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, output shape (120 tokens + 5 -1) -> (None, 116, 128)
+* When predicting words to generate texts, the more words predicted the more likely it will end up gibberish because the probability that each word matches an existing phrase goes down the more words you create
+* A major drawback of word-based training for text generation instead of character-based generation because there are far more words in a typical corpus than characters, it is much more memory intensive
 
 ## Transfer Learning
 * [Intro](https://stackoverflow.com/a/46745897/11105356)
