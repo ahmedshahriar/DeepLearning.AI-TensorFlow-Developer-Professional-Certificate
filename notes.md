@@ -39,6 +39,8 @@ Dropout advantages ->
 * sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, output shape (120 tokens + 5 -1) -> (None, 116, 128)
 * When predicting words to generate texts, the more words predicted the more likely it will end up gibberish because the probability that each word matches an existing phrase goes down the more words you create
 * A major drawback of word-based training for text generation instead of character-based generation because there are far more words in a typical corpus than characters, it is much more memory intensive
+* In `Sequential API`, if you don't specify the `input shape` in the `Input layer` and also not in the `embedding layer`, there's no way the model can be built with the proper set of parameters. `input_length` argument is required if you are going to connect `Flatten` then `Dense` layers upstream (without it, the shape of the dense outputs cannot be computed). [input_length Embedding Layer](https://stackoverflow.com/a/61849045/11105356)
+
 
 ## Transfer Learning
 * [Intro](https://stackoverflow.com/a/46745897/11105356)
