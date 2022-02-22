@@ -36,6 +36,7 @@ Dropout advantages ->
 
 ## NLP
 * Both `Flatten` and `GlobalAveragePooling1D/2D/3D` are valid options. So is `GlobalMaxPooling2D`. `Flatten` will result in a larger Dense layer afterwards, which is more expensive and may result in worse overfitting. But if you have lots of data, it might also perform better. For `GlobalAveragePooling` resulting shape will be (n_samples, last_axis), `Flatten()` will reshape a tensor into (n_samples, height*width*channels)
+* Global Average Pooling is a pooling operation designed to replace fully connected layers in classical CNNs. The idea is to generate one feature map for each corresponding category of the classification task in the last mlpconv layer. Instead of adding fully connected layers on top of the feature maps, we take the average of each feature map, and the resulting vector is fed directly into the classification layer.
 * In `Tokenizer` `num_words` parameter lets us specify the maximum number of vocabulary words to use. For example, if we set num_words=100 when initializing the Tokenizer , it will only use the 100 most frequent words in the vocabulary and filter out the remaining vocabulary words.
 * Subword-based tokenization algorithm will break the sentence into subwords. The subword-based tokenization algorithms uses the following principles. 
   - Do not split the frequently used words into smaller subwords.
