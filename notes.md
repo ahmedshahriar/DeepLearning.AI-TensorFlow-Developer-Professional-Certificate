@@ -8,6 +8,7 @@
 6. [keras transfer learning](https://keras.io/guides/transfer_learning) [tf - transfer learning](https://www.tensorflow.org/tutorials/images/transfer_learning)
 7. [Dropout](https://www.youtube.com/watch?v=ARq74QuavAo)
 8. [SubwordTextEncoder](https://www.tensorflow.org/datasets/api_docs/python/tfds/deprecated/text/SubwordTextEncoder)
+9. [Transformer](https://jinglescode.github.io/2020/05/27/illustrated-guide-transformer/)
 
 ## dataset
 1. [tensorflow datasets](https://github.com/tensorflow/datasets/tree/master/docs/catalog)
